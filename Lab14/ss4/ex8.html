@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery UI Autocomplete function</title>
+    <link rel="stylesheet" href="">
+    <script src="../jquery-3.5.1.min.js"></script>
+    <script>
+        $(function () {
+            var countries = [
+                "Germany",
+                "Ghana",
+                "Craotia",
+                "Cambodia",
+            ];
+            $("#automplete-1").autocomplete({
+                source: countries
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="ui-widget">
+    <p>Type "g" or "c"</p>
+    <label for="automplete-1">Tags:</label>
+    <input id="automplete-1">
+</div>
+</body>
+</html>

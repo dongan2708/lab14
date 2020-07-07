@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery-3.5.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var employeeJSON = {
+            "firstName":"Philips",
+            "lastNmae":"LG",
+            "gender":"Male",
+             "salary":5000
+            };
+            var result = '';
+            result += 'First Name ='+ employeeJSON.firstName+'<br/>';
+            result += 'Last Name ='+ employeeJSON.lastNmae+'<br/>';
+            result += 'Gender =' + employeeJSON.gender+'<br/>';
+            result += 'Salary =' + employeeJSON.salary+'<br/>';
+            $('#resultDiv').html(result);
+        });
+        </script>
+</head>
+<body style="font-family: Arial">
+<div id="resultDiv"></div>
+</body>
+</html>

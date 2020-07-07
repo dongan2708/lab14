@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Bootstrap Example</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/bootstrap.js"></script>
+    <script src="../jquery-3.5.1.min.js"></script>
+</head>
+<body>
+        <br/>
+<div class="well well-sm class">
+    <div class="row">
+        <div class="col-xs-6">
+            <ul class="nav nav-tabs">
+                <li class="active">
+                    <a href="#homeTab" data-toggle="tab">Home</a>
+                </li>
+                <li>
+                    <a href="#contactTab" data-toggle="tab">Contact</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                        Locations <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#indiaTab" data-toggle="tab">India</a></li>
+                        <li><a href="#usaTab" data-toggle="tab">USA</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div id="homeTab" class="tab-pane active">
+                    <h3>Home</h3>
+                    <p>Home page content</p>
+                </div>
+                <div id="contactTab" class="tab-pane">
+                    <h3>Contact page </h3>
+                    <p>Contact page content</p>
+                </div>
+                <div id="indiaTab" class="tab-pane">
+                    <h3>India</h3>
+                    <p>India Location Detaiks</p>
+                </div>
+                <div id="usaTab" class="tab-pane">
+                    <h3>USA</h3>
+                    <p>USA Location Details</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
